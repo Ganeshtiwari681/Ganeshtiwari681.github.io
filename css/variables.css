@@ -1,0 +1,17 @@
+/* CSS Variables */
+:root {
+    --primary-color: #fff;
+    --primary-shade: #f7f5f2;
+    --seconday-color: #000;
+    --secondary-shade: #4b4c4c;
+    --red-color: #d40700;
+    --red-shade: #b20600;
+    --accent-color: #ffee63;
+    --gradient-1: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(50, 50, 51, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    --gradient-2: linear-gradient(to right, #040404, #242424, #656565);
+    --gradient-purple: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --shadow-sm: 0 2px 10px rgba(0, 0, 0, 0.1);
+    --shadow-md: 0 5px 20px rgba(0, 0, 0, 0.2);
+    --shadow-lg: 0 10px 30px rgba(0, 0, 0, 0.3);
+    --transition: all 0.3s ease;
+}
