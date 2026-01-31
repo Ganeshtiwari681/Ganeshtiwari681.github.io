@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me - Ganesh Tiwari</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/dynamic-bg.css">
+    <script src="https://kit.fontawesome.com/c3171e834c.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+    <header style="min-height: auto; padding: 80px 0 30px;">
+        <div class="head-section layout">
+            <div class="nav-bar flex space-between align-center">
+                <div class="logo uppercase f-w-700 letter-spacing2"><a href="index.html" style="color: inherit;"><span>Ganesh</span> Tiwari</a></div>
+                <div class="nav-links">
+                    <ul class="flex f-w-500">
+                        <li><a href="index.html" class="nav-link">Home</a></li>
+                        <li><a href="about.html" class="nav-link">About</a></li>
+                        <li><a href="skills.html" class="nav-link">Skills</a></li>
+                        <li><a href="projects.html" class="nav-link">Projects</a></li>
+                        <li><a href="contact.html" class="nav-link active">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <a href="contact.html" class="btn hire-me-btn">Hire Me</a>
+                </div>
+                <label for="click" class="menu-btn" id="menu">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+            </div>
+        </div>
+    </header>
+
+    <section class="contact-us-sec">
+        <div class="layout">
+            <h3 class="section-title">Get In Touch</h3>
+            <p class="section-subtitle">Have a project in mind? Recruiters, let's connect! I'm open to opportunities.</p>
+            
+            <!-- Coding Profiles Section -->
+            <div style="background: var(--bg-card); padding: 2rem; border-radius: 1rem; box-shadow: var(--shadow-md); margin-bottom: 3rem; border: 1px solid var(--border-color);">
+                <h4 style="font-size: 1.5rem; margin-bottom: 1.5rem; text-align: center; color: var(--text-primary);">
+                    <i class="fa-solid fa-code" style="color: var(--accent-color); margin-right: 0.5rem;"></i>
+                    Coding Profiles
+                </h4>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem;">
+                    <div style="text-align: center; padding: 1.5rem; background: var(--bg-secondary); border-radius: 0.75rem;">
+                        <i class="fa-brands fa-github" style="font-size: 2.5rem; color: var(--accent-color); margin-bottom: 1rem;"></i>
+                        <h5 style="margin-bottom: 0.5rem; color: var(--text-primary);">GitHub</h5>
+                        <a href="https://github.com/Ganeshtiwari681" target="_blank" style="color: var(--accent-color); font-size: 0.9rem;">
+                            View Profile <i class="fa-solid fa-external-link"></i>
+                        </a>
+                    </div>
+                    <div style="text-align: center; padding: 1.5rem; background: var(--bg-secondary); border-radius: 0.75rem;">
+                        <i class="fa-solid fa-code" style="font-size: 2.5rem; color: var(--accent-color); margin-bottom: 1rem;"></i>
+                        <h5 style="margin-bottom: 0.5rem; color: var(--text-primary);">LeetCode</h5>
+                        <a href="https://leetcode.com/u/mpgiganeshtiwar2/" target="_blank" style="color: var(--accent-color); font-size: 0.9rem;">
+                            View Profile <i class="fa-solid fa-external-link"></i>
+                        </a>
+                    </div>
+                    <div style="text-align: center; padding: 1.5rem; background: var(--bg-secondary); border-radius: 0.75rem;">
+                        <i class="fa-solid fa-laptop-code" style="font-size: 2.5rem; color: var(--accent-color); margin-bottom: 1rem;"></i>
+                        <h5 style="margin-bottom: 0.5rem; color: var(--text-primary);">GeeksforGeeks</h5>
+                        <a href="https://www.geeksforgeeks.org/user/mpgiganesht9ncn/" target="_blank" style="color: var(--accent-color); font-size: 0.9rem;">
+                            View Profile <i class="fa-solid fa-external-link"></i>
+                        </a>
+                    </div>
+                    <div style="text-align: center; padding: 1.5rem; background: var(--bg-secondary); border-radius: 0.75rem;">
+                        <i class="fa-brands fa-hackerrank" style="font-size: 2.5rem; color: var(--accent-color); margin-bottom: 1rem;"></i>
+                        <h5 style="margin-bottom: 0.5rem; color: var(--text-primary);">HackerRank</h5>
+                        <a href="https://www.hackerrank.com/profile/mpgiganeshtiwar2" target="_blank" style="color: var(--accent-color); font-size: 0.9rem;">
+                            View Profile <i class="fa-solid fa-external-link"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contact-details">
+                <div class="left-sec">
+                    <div class="contact-info-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h5>Location</h5>
+                        <p>Permanent: Gokhale Nagar, Bajariya Konch, Jalaun, Uttar Pradesh 285205</p>
+                        <p>Current: Pandey Boys Hostel Mandhana, Kanpur, Uttar Pradesh 209217</p>
+                    </div>
+                    <div class="contact-info-item" style="margin-top: 30px;">
+                        <i class="fa-solid fa-clock"></i>
+                        <h5>Available</h5>
+                        <p>Monday - Friday: 9:00 AM - 6:00 PM<br>Weekend: Available for urgent projects</p>
+                    </div>
+                </div>
+                <div class="center-sec">
+                    <div class="contact-info-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <h5>Contact No.</h5>
+                        <p><a href="tel:+918887243523" style="color: var(--accent-color);">+91 8887243523</a></p>
+                    </div>
+                    <div class="contact-info-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <h5>Email Id</h5>
+                        <p><a href="mailto:mpgiganeshtiwari0409@gmail.com" style="color: var(--accent-color);">mpgiganeshtiwari0409@gmail.com</a></p>
+                    </div>
+                    <div class="contact-info-item" style="margin-top: 30px;">
+                        <h5>Coding Platforms</h5>
+                        <div style="display: flex; flex-direction: column; gap: 1rem; margin-top: 15px;">
+                            <a href="https://leetcode.com/u/mpgiganeshtiwar2/" target="_blank" style="display: flex; align-items: center; gap: 0.75rem; color: var(--accent-color); padding: 0.5rem; background: var(--bg-secondary); border-radius: 0.5rem; transition: var(--transition);">
+                                <i class="fa-solid fa-code" style="font-size: 1.25rem;"></i>
+                                <span>LeetCode Profile</span>
+                                <i class="fa-solid fa-external-link" style="margin-left: auto;"></i>
+                            </a>
+                            <a href="https://www.geeksforgeeks.org/user/mpgiganesht9ncn/" target="_blank" style="display: flex; align-items: center; gap: 0.75rem; color: var(--accent-color); padding: 0.5rem; background: var(--bg-secondary); border-radius: 0.5rem; transition: var(--transition);">
+                                <i class="fa-solid fa-laptop-code" style="font-size: 1.25rem;"></i>
+                                <span>GeeksforGeeks Profile</span>
+                                <i class="fa-solid fa-external-link" style="margin-left: auto;"></i>
+                            </a>
+                            <a href="https://www.hackerrank.com/profile/mpgiganeshtiwar2" target="_blank" style="display: flex; align-items: center; gap: 0.75rem; color: var(--accent-color); padding: 0.5rem; background: var(--bg-secondary); border-radius: 0.5rem; transition: var(--transition);">
+                                <i class="fa-brands fa-hackerrank" style="font-size: 1.25rem;"></i>
+                                <span>HackerRank Profile</span>
+                                <i class="fa-solid fa-external-link" style="margin-left: auto;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-sec">
+                    <form id="contact-form" class="contact-form">
+                        <h4>Send me a message</h4>
+                        <p style="color: var(--text-secondary); margin-bottom: 1.5rem; font-size: 0.95rem;">
+                            Recruiters and clients, feel free to reach out!
+                        </p>
+                        <div class="form-group">
+                            <input type="text" id="sender-name" name="sender_name" placeholder="Your Name *" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="sender-email" name="sender_email" placeholder="Your Email *" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="sender-company" name="sender_company" placeholder="Company/Organization (Optional)">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject (e.g., Job Opportunity, Project Inquiry)">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" placeholder="Your Message *" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" id="submit-btn" style="width: 100%;">
+                            <span id="btn-text">Send Message</span>
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+                        <div id="form-message" class="form-message"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-sec layout text-center">
+            <div class="footer-content">
+                <div class="footer-social">
+                    <a href="https://github.com/Ganeshtiwari681" target="_blank" class="footer-social-icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/ganesh-tiwari-681" target="_blank" class="footer-social-icon"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="mailto:mpgiganeshtiwari0409@gmail.com" class="footer-social-icon"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+                <p>Copyright &copy; <span id="current-year">2025</span> Ganesh Tiwari | All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+    
+    <button id="scroll-top" class="scroll-top-btn" title="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    
+    <script src="js/main.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+</html>
