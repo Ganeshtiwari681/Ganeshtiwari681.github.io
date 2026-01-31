@@ -205,9 +205,9 @@ The portfolio is fully responsive and optimized for:
 - **Email:** mpgiganeshtiwari0409@gmail.com
 - **Phone:** +91 8887243523
 - **Location:** Gokhale Nagar, Bajariya Konch, Jalaun, Uttar Pradesh - 285205
-- **GitHub:** [github.com/Ganeshtiwari681](https://github.com/Ganeshtiwari681)
-- **LinkedIn:** [linkedin.com/in/ganesh-tiwari-681](https://www.linkedin.com/in/ganesh-tiwari-681)
-- **LeetCode:** [leetcode.com/u/GaneshTiwari681/](https://leetcode.com/u/GaneshTiwari681/)
+- **GitHub:** (https://github.com/Ganeshtiwari681)
+- **LinkedIn:** (https://www.linkedin.com/in/ganesh-tiwari1)
+- **LeetCode:** (https://leetcode.com/u/mpgiganeshtiwar2/)
 
 ## 📄 License
 
